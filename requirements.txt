@@ -1,0 +1,10 @@
+mkdocs==1.6.1
+mkdocs-material==9.5.44
+mkdocs-git-revision-date-localized-plugin==1.2.9
+pymdown-extensions==10.12
+# Pin pygments to 2.18.0 — pymdownx-extensions 10.12's highlight extension
+# passes filename=None to pygments.HtmlFormatter for un-language-tagged code
+# fences. Pygments 2.19+ raises AttributeError at html.escape(None);
+# 2.18 tolerates it. See ops/2026-05-04-plan6-phase-b-close.md §1.
+pygments==2.18.0
+mike==2.1.3
