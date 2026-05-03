@@ -114,6 +114,35 @@ nav:
   - Credits: spec/credits.md
   - Firmware: spec/firmware.md
   - SBOM: spec/sbom.md
+  - Bridges:
+    - OPC UA: bridges/opcua-bridge.md
+    - ROS 2: bridges/ros2-bridge.md
+  - Compliance:
+    - EU AI Act: compliance/eu-ai-act.md
+    - EU AI Act Mapping: compliance/eu-ai-act-mapping.md
+    - Article 9 Risk Assessment Template: compliance/art9-risk-assessment-template.md
+    - Article 13 Transparency Template: compliance/art13-transparency-template.md
+    - Article 17 QMS Template: compliance/art17-qms-template.md
+    - Conformity Assessment Template: compliance/conformity-assessment-template.md
+    - RCAN Compliance Statement Template: compliance/rcan-compliance-statement-template.md
+    - IEC 62443 Alignment: compliance/iec-62443-alignment.md
+    - ISO 10218 Alignment: compliance/iso-10218-alignment.md
+    - NIST AI RMF Alignment: compliance/nist-ai-rmf-alignment.md
+    - SIL/PLe Declarations: compliance/sil-ple-declarations.md
+  - Crypto:
+    - PQC Profile: crypto/pqc-profile.md
+  - Federation:
+    - Federation Protocol: federation/federation-protocol.md
+  - Verification:
+    - Manufacturer Verification: verification/manufacturer-verification.md
+  - Governance:
+    - Robot Registry Foundation: governance/robot-registry-foundation.md
+  - Engagement:
+    - ISO TC299 Roadmap: engagement/iso-tc299-roadmap.md
+  - Whitepaper:
+    - AI Accountability Layer 2026: whitepaper/ai-accountability-layer-2026.md
+  - Reference:
+    - Robot Memory Schema: reference/robot-memory-schema.md
 
 # Per-site nav added during migration phases.
 
