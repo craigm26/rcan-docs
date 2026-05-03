@@ -80,8 +80,8 @@ Sent by the robot in reply to an AUTHORITY_ACCESS request.
     "rrn":          "RRN-000000000001",
     "provided_at":  1753920000,
     "data": {
-      "audit_chain":            [],
-      "transparency_records":   [],
+      "audit_chain":            ["..."],
+      "transparency_records":   ["..."],
       "sbom_url":               "https://rrf.rcan.dev/robots/RRN-000000000001/sbom",
       "firmware_manifest_url":  "https://rrf.rcan.dev/robots/RRN-000000000001/firmware-manifest"
     }

@@ -80,39 +80,40 @@ nav:
   - Home: index.md
   - Spec:
     - Overview: spec/index.md
-    - Section 1 — Robot URI (RURI): spec/section-1.md
-    - Section 2 — Role-Based Access Control: spec/section-2.md
-    - Section 3 — Message Format: spec/section-3.md
-    - Section 4 — Discovery (mDNS): spec/section-4.md
-    - Section 5 — Authentication: spec/section-5.md
-    - Section 6 — Safety Invariants: spec/section-6.md
-    - Section 7 — Federation: spec/section-7.md
-    - Section 8 — Robot Config (RCAN File): spec/section-8.md
-    - Section 9 — Capabilities: spec/section-9.md
-    - Section 10 — Autonomous Navigation: spec/section-10.md
-    - Section 11 — Behavior Scripts: spec/section-11.md
-    - Section 12 — Depth & Sensing: spec/section-12.md
-    - Section 13 — Telemetry Streaming: spec/section-13.md
-    - Section 14 — Provider Management: spec/section-14.md
-    - Section 15 — Swarm Coordination: spec/section-15.md
-    - Section 16 — AI Accountability: spec/section-16.md
-    - Section 17 — Distributed Registry Node Protocol: spec/section-17.md
-    - Section 18 — Capability Advertisement Protocol: spec/section-18.md
-    - Section 19 — Behavior/Skill Invocation Protocol: spec/section-19.md
-    - Section 20 — Telemetry Field Registry: spec/section-20.md
-    - Section 21 — Robot Registry Integration: spec/section-21.md
-    - Section 22 — Fundamental Rights Impact Assessment: spec/section-22.md
-    - Section 23 — Safety Benchmark Protocol: spec/section-23.md
-    - Section 24 — Instructions for Use: spec/section-24.md
-    - Section 25 — Post-Market Monitoring: spec/section-25.md
-    - Section 26 — EU Register Submission: spec/section-26.md
-    - Section 27 — FRIA Protocol: spec/section-27.md
-    - Appendix B — WebSocket Transport Binding: spec/appendix-b.md
-    - Authority: spec/authority.md
-    - Competitions: spec/competitions.md
-    - Credits: spec/credits.md
-    - Firmware: spec/firmware.md
-    - SBOM: spec/sbom.md
+    - "§1 Robot URI (RURI)": spec/section-1.md
+    - "§2 Role-Based Access Control": spec/section-2.md
+    - "§3 Message Format": spec/section-3.md
+    - "§4 Discovery (mDNS)": spec/section-4.md
+    - "§5 Authentication": spec/section-5.md
+    - "§6 Safety Invariants": spec/section-6.md
+    - "§7 Federation": spec/section-7.md
+    - "§8 Robot Config (RCAN File)": spec/section-8.md
+    - "§9 Capabilities": spec/section-9.md
+    - "§10 Autonomous Navigation": spec/section-10.md
+    - "§11 Behavior Scripts": spec/section-11.md
+    - "§12 Depth & Sensing": spec/section-12.md
+    - "§13 Telemetry Streaming": spec/section-13.md
+    - "§14 Provider Management": spec/section-14.md
+    - "§15 Swarm Coordination": spec/section-15.md
+    - "§16 AI Accountability": spec/section-16.md
+    - "§17 Distributed Registry Node Protocol": spec/section-17.md
+    - "§18 Capability Advertisement Protocol": spec/section-18.md
+    - "§19 Behavior/Skill Invocation Protocol": spec/section-19.md
+    - "§20 Telemetry Field Registry": spec/section-20.md
+    - "§21 Robot Registry Integration": spec/section-21.md
+    - "§22 FRIA Protocol": spec/section-22.md
+    - "§23 Safety Benchmark Protocol": spec/section-23.md
+    - "§24 Instructions for Use": spec/section-24.md
+    - "§25 Post-Market Monitoring": spec/section-25.md
+    - "§26 EU Register Submission": spec/section-26.md
+    - "§27 FRIA Protocol": spec/section-27.md
+  - Appendix:
+    - "B: WebSocket Transport Binding": spec/appendix-b.md
+  - Authority: spec/authority.md
+  - Competitions: spec/competitions.md
+  - Credits: spec/credits.md
+  - Firmware: spec/firmware.md
+  - SBOM: spec/sbom.md
 
 # Per-site nav added during migration phases.
 

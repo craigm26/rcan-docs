@@ -94,7 +94,7 @@ Robots publish their manifest to the RRF registry using the `FIRMWARE_ATTESTATIO
     "rrn":              "RRN-000000000001",
     "firmware_version": "v2026.4.1.0",
     "build_hash":       "sha256:a1b2c3d4...",
-    "components":       [],
+    "components":       ["..."],
     "signed_at":        "2026-04-01T00:00:00Z",
     "signature":        "base64url..."
   }

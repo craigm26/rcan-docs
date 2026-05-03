@@ -86,7 +86,7 @@ Robots push their SBOM to the RRF registry using the `SBOM_UPDATE` message type:
   "payload": {
     "rrn":              "RRN-000000000001",
     "cyclonedx_version":"1.5",
-    "components":       [],
+    "components":       ["..."],
     "x_rcan_firmware_hash":         "sha256:a1b2c3d4...",
     "x_rcan_attestation_signed_at": "2026-04-01T00:00:00Z"
   }
