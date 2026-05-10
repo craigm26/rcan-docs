@@ -225,7 +225,7 @@ P66 conformance is a prerequisite for robots deployed in environments with direc
 | RCAN specification | Semver (`MAJOR.MINOR`) | `1.4`, `2.0` | MAJOR bump = breaking wire changes; MINOR = additive |
 | RCAN SDKs | Semver (`MAJOR.MINOR.PATCH`) | `1.4.2` | Tracks spec MAJOR.MINOR; PATCH for bug fixes |
 | RCAN runtimes (rcan-pi, rcan-ros2) | CalVer (`YYYY.MM.PATCH`) | `2026.03.1` | Decoupled from spec; release when ready |
-| rcan-spec repository | Git tags + GitHub releases | `v1.4.0` | Tag on merge of normative changes |
+| rcan-spec repository | Git tags + GitHub releases | `v3.2.0` | Tag on merge of normative changes |
 
 **Deprecation policy:** A message type or field marked `deprecated` in spec version N is removed no earlier than version N+2. Implementations MUST support deprecated fields for at least one major version cycle.
 
@@ -255,11 +255,11 @@ The RCAN specification is designed to align with and complement existing interna
 |---|---|---|
 | **ISO 10218-1/2** (Robot safety) | Physical safety requirements for industrial robots; informs P66 conformance and ESTOP timing requirements | Aligned in v1.4 |
 | **ISO/TS 15066** (Collaborative robots) | Power and force limiting, speed/separation monitoring; informs hardware_safety field schema | Aligned in v1.4 |
-| **EU AI Act (Regulation 2024/1689)** | Art. 13 transparency obligations; Art. 49 high-risk AI registration; informs transparency manifest spec | Tracked in #159; target v1.5 |
-| **IEC 62443** (Industrial cybersecurity) | Security levels for industrial control systems; informs RCAN auth and registry security requirements | Partially aligned; full alignment target v1.6 |
-| **NIST AI RMF** (AI Risk Management) | AI risk categorisation and documentation; informs P66 manifest and transparency disclosure fields | Tracked; target v1.5 |
+| **EU AI Act (Regulation 2024/1689)** | Art. 13 transparency obligations; Art. 49 high-risk AI registration; informs transparency manifest spec | Tracked in #159; ongoing alignment |
+| **IEC 62443** (Industrial cybersecurity) | Security levels for industrial control systems; informs RCAN auth and registry security requirements | Partially aligned; ongoing alignment |
+| **NIST AI RMF** (AI Risk Management) | AI risk categorisation and documentation; informs P66 manifest and transparency disclosure fields | Tracked; ongoing alignment |
 | **ISO/TC 299** (Robotics terminology) | Common vocabulary for robot types and capabilities; informs RCAN robot type taxonomy | Ongoing alignment |
-| **IEC 61508** (Functional safety) | SIL (Safety Integrity Level) classification; informs hardware_safety SIL attestation fields | Target v1.5 |
+| **IEC 61508** (Functional safety) | SIL (Safety Integrity Level) classification; informs hardware_safety SIL attestation fields | Tracked; ongoing alignment |
 
 The RRF seeks formal liaison status with ISO/TC 299 and will apply for W3C liaison once formally incorporated.
 
