@@ -1,6 +1,6 @@
 # RCAN Protocol Specification
 
-**Version 3.2.2 — Stable**
+**Version 3.2 — Stable**
 
 This is the RCAN (Robot Communication and Autonomy Network) protocol specification. It defines robot addressing, authentication, message formats, discovery, safety invariants, configuration schemas, autonomous behaviors, AI accountability requirements, EU AI Act compliance sections, and the multi-runtime agent declaration.
 
