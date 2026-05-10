@@ -187,9 +187,11 @@ Third-party runtimes may define their own ids. See the peer-runtimes listing in 
 
 ---
 
-## 8.7 Voice Block (v3.3, optional)
+## 8.7 Voice Block [Proposed for v3.3 — not yet ratified]
 
-As of v3.3, ROBOT.md MAY declare a top-level `voice` block that travels with the robot's manifest. Pendant implementations and other voice-aware hosts read it to discover wake-word aliases beyond the robot's `name`, the spoken language, and an advisory TTS voice id. The block is optional and additive — robots that omit it MUST still function under hosts that respect `name` as the primary wake word.
+> **Status:** This subsection describes a **proposed** addition that has not been merged into the canonical specification (current spec: v3.2). The behaviour below is descriptive of the proposal; implementations SHOULD NOT rely on it for v3.2-conformant deployments. Track ratification status in the rcan-spec changelog.
+
+When ratified for v3.3, ROBOT.md MAY declare a top-level `voice` block that travels with the robot's manifest. Pendant implementations and other voice-aware hosts read it to discover wake-word aliases beyond the robot's `name`, the spoken language, and an advisory TTS voice id. The block is optional and additive — robots that omit it MUST still function under hosts that respect `name` as the primary wake word.
 
 ```yaml
 voice:
