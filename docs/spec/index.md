@@ -2,7 +2,7 @@
 
 **Version 3.2 — Stable**
 
-This is the RCAN (Robot Communication and Autonomy Network) protocol specification. It defines robot addressing, authentication, message formats, discovery, safety invariants, configuration schemas, autonomous behaviors, AI accountability requirements, EU AI Act compliance sections, and the multi-runtime agent declaration.
+This is the RCAN (Robot Communication and Addressing Network) protocol specification. It defines robot addressing, authentication, message formats, discovery, safety invariants, configuration schemas, autonomous behaviors, AI accountability requirements, EU AI Act compliance sections, and the multi-runtime agent declaration.
 
 For the live compatibility matrix and SDK version status, see [rcan.dev/compatibility](https://rcan.dev/compatibility).
 
@@ -38,7 +38,7 @@ For the live compatibility matrix and SDK version status, see [rcan.dev/compatib
 | [§24](section-24.md) | Instructions for Use |
 | [§25](section-25.md) | Post-Market Monitoring |
 | [§26](section-26.md) | EU Register Submission |
-| [§27](section-27.md) | FRIA Protocol |
+| [§27](section-27.md) | Reserved: Spatial Intelligence Eval (FRIA is §22) |
 
 ---
 
@@ -47,6 +47,7 @@ For the live compatibility matrix and SDK version status, see [rcan.dev/compatib
 | Page | Description |
 |------|-------------|
 | [Appendix B](appendix-b.md) | WebSocket Transport Binding |
+| [Appendix C](appendix-c.md) | Physical Assurance Profile (Bounded Embodiment), informative, draft for v3.3.0 |
 | [Authority](authority.md) | Regulatory Authority Access Protocol |
 | [Competitions](competitions.md) | Fleet Competition Protocol |
 | [Credits](credits.md) | Castor Credits — Idle Compute Contribution |

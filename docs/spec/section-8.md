@@ -124,6 +124,7 @@ The full JSON Schema includes the following optional config blocks. These extend
 - `ros2` — ROS2 bridge configuration
 - `provider_fallback` — quota fallback provider (§14)
 - `offline_fallback` — offline fallback provider (§14)
+- `envelope` — physical envelope the safety gate enforces (workspace, motion, force, proximity, stop, heartbeat). Informative; validated separately against [rcan.dev/schemas/envelope.json](https://rcan.dev/schemas/envelope.json). See [Appendix C](appendix-c.md)
 
 !!! info ""
     **Schema reference:** Full JSON Schema at [rcan.dev/schema/rcan.schema.json](https://rcan.dev/schema/rcan.schema.json)

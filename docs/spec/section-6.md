@@ -48,8 +48,8 @@ Safety invariants MUST be enforced in the RCAN runtime layer, *before* payloads 
 2. **Role & scope check** (§2) — reject insufficient privilege
 3. **Rate limiting** (Invariant 4) — drop excess requests
 4. **Prompt injection scan** (Invariant 7) — block suspicious NL instructions
-5. **Confidence gate** (§16.2) — block or escalate low-confidence commands
-6. **HiTL gate** (§16.3) — pause for human authorization if required
+5. **Confidence gate** (§16.3) — block or escalate low-confidence commands
+6. **HiTL gate** (§16.4) — pause for human authorization if required
 7. **Audit log write** (Invariant 3) — record before dispatch
 8. **Driver dispatch** — only reached if all above pass
 
@@ -64,3 +64,4 @@ Safety invariants MUST be enforced in the RCAN runtime layer, *before* payloads 
 - **§3** — Priority.SAFETY message handling (Invariant 6)
 - **§8** — `agent.latency_budget_ms` config key (Invariant 2)
 - **§16** — AI Accountability: confidence gates, HiTL gates, audit records (Invariants 3 & 7)
+- **Appendix C** (informative) — Physical Assurance Profile: how these invariants map to a testable gate between the model and the actuators, and why the RCAN ESTOP message and a hardwired stop are both needed
