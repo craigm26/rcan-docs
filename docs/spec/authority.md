@@ -131,7 +131,7 @@ RCAN v2.1 provisions are normatively aligned with the following ISO standards. I
 
 | Standard | Committee | RCAN Provision | Mapping |
 |----------|-----------|----------------|---------|
-| ISO 13482:2014 | ISO/TC 299 | §6 Safety invariants | RCAN ESTOP (type 7) → ISO 13482 protective stop. ESTOP MUST always be honored regardless of role level (§2). |
+| ISO 13482:2014 | ISO/TC 299 | §6 Safety invariants | RCAN ESTOP (a SAFETY message, type 6) → ISO 13482 protective stop. ESTOP MUST always be honored regardless of role level (§2). |
 | ISO 10218-2:2011 | ISO/TC 299 | §2 RBAC | RCAN role levels (GUEST–M2M_TRUSTED) satisfy ISO 10218-2 access control requirements for collaborative robots. |
 | ISO/IEC 42001:2023 | ISO/IEC JTC 1/SC 42 | §16 Transparency | RCAN audit chain + TRANSPARENCY records (type 16) satisfy ISO/IEC 42001 AI management system evidence requirements. |
 | ISO 13482:2014 | ISO/TC 299 | §7 ConfidenceGate | RCAN confidence thresholds (ABORT_THRESHOLD, CONFIRM_THRESHOLD) align with ISO 13482 risk-based decision gates. |
