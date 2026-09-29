@@ -202,4 +202,4 @@ Capability versions follow **MAJOR.MINOR** semantic versioning (e.g. `"1.0"`, `"
 - Custom capability names MUST use reverse-DNS format to avoid collisions with future RCAN standard names (e.g. `"com.example.custom_sensor"`).
 
 !!! warning ""
-    **Note:** The RCAN Working Group maintains the registry of standard capability names. Proposals for new standard capabilities should be submitted via the RCAN specification issue tracker.
+    **Note:** The RCAN maintainer keeps the registry of standard capability names. Proposals for new standard capabilities should be submitted via the RCAN specification issue tracker.
