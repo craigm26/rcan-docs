@@ -226,3 +226,13 @@ RCAN §16.6 satisfies the machine-detectability requirement for AI-generated con
 | L2 Secure | MUST embed token in COMMAND payload and audit record; MUST expose verify endpoint |
 | L3 Federated | L2 requirements + token preserved in forwarded COMMAND across delegation chain |
 | L4 Registry | L3 requirements + RRF registry MAY cache verify results for cross-robot auditability |
+
+---
+
+## 16.7 Gate Decision Records (informative)
+
+*Version: draft for v3.3.0 · Status: Informative*
+
+Implementations that place a safety gate between the model and the actuators MAY emit a `gate_decision` record for every decision the gate makes, alongside the §6 audit record for the same command. The record carries `seq, t, principal, authority, cmd, decision, applied, reason, envelope, state_digest, prev, hash`, where `decision` is one of `allow`, `clamp`, `reject` or `stop`, `prev` is the previous record's hash, and `hash` is SHA-256 over the canonical JSON of the record without `hash`. Schema: [rcan.dev/schemas/gate-decision.json](https://rcan.dev/schemas/gate-decision.json). Full description, verification procedure and its limits: [Appendix C §C.6](appendix-c.md).
+
+Nothing in this subsection is required for any conformance level. Conformance is not certification.

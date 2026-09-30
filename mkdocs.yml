@@ -106,9 +106,10 @@ nav:
     - "§24 Instructions for Use": spec/section-24.md
     - "§25 Post-Market Monitoring": spec/section-25.md
     - "§26 EU Register Submission": spec/section-26.md
-    - "§27 FRIA Protocol": spec/section-27.md
+    - "§27 Reserved (Spatial Eval)": spec/section-27.md
   - Appendix:
     - "B: WebSocket Transport Binding": spec/appendix-b.md
+    - "C: Physical Assurance Profile": spec/appendix-c.md
   - Authority: spec/authority.md
   - Competitions: spec/competitions.md
   - Credits: spec/credits.md

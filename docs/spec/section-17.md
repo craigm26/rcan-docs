@@ -18,7 +18,7 @@ The RCAN distributed registry defines four node types, each with distinct author
 | **Resolver** | None | No | Not required | Authoritative / Root |
 | **Cache** | None | No | Not required | Authoritative (TTL-bound) |
 
-**Root** (`rcan.dev`): Operated by the RCAN Working Group. Authoritative for the global namespace, delegation authority, and the root of the trust chain. Maintains `namespace_delegations` table; issues delegation certificates to Authoritative nodes; resolves legacy `RRN-XXXXXXXX` RRNs directly.
+**Root** (`rcan.dev`): Operated by the RCAN maintainer (one person today). Authoritative for the global namespace, delegation authority, and the root of the trust chain. Maintains `namespace_delegations` table; issues delegation certificates to Authoritative nodes; resolves legacy `RRN-XXXXXXXX` RRNs directly.
 
 **Authoritative** (manufacturer-run): Operated by a robot manufacturer or organisation. Authoritative for a delegated RRN prefix namespace (e.g. `BD`, `UR`). Holds a delegation cert signed by root; signs all records it registers; syncs records upstream to root on schedule. MUST expose `/.well-known/rcan-node.json`.
 

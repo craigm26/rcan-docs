@@ -135,7 +135,7 @@ Owners accumulate credits across their entire fleet. Badge tier is determined by
 
 ## 5. P66 Preemption
 
-Contribution work runs at the lowest priority level (P1 — `LOW`). Any active robot command arriving at **priority P66 or higher** (i.e. `NORMAL`, `HIGH`, or `SAFETY`) immediately preempts an active contribution session.
+Contribution work runs at the lowest priority level (P1 — `LOW`). Any active robot command arriving at **priority `NORMAL` or higher** (i.e. `NORMAL`, `HIGH`, or `SAFETY`) immediately preempts an active contribution session.
 
 The robot MUST send a `CONTRIBUTE_CANCEL` message to the coordinator within 500 ms of receiving the preempting command. The cancel reason SHOULD be set to `"preempted"`.
 

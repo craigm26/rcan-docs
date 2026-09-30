@@ -3,7 +3,7 @@
 **Status:** Draft  
 **Version:** 1.0.0-draft  
 **Related:** RCAN Spec §1 (Robot URI / Identity), §8 (Robot Config / Agent Harness), §13 (Telemetry Streaming), §20 (Telemetry Field Registry)  
-**Issue:** continuonai/rcan-spec#191
+**Issue:** RobotRegistryFoundation/rcan-spec#191
 
 ---
 

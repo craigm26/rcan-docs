@@ -115,6 +115,9 @@ message RCANMessage {
     AUTHORITY_RESPONSE    = 42;  // Robot → authority: provide requested audit data
     FIRMWARE_ATTESTATION  = 43;  // Robot → RRF: publish signed firmware manifest
     SBOM_UPDATE           = 44;  // Robot → RRF: publish updated SBOM (CycloneDX)
+
+    // HiTL authorization (45), v3.3
+    AUTHORIZE             = 45;  // §16.4 — approve or deny a PENDING_AUTH (was unnumbered)
   }
 
   enum Priority {
