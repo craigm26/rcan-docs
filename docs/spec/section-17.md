@@ -203,6 +203,16 @@ Robot Record (RRN)
 ### Trust Rules
 
 1. **Root's public key is the trust anchor.** It is published at `https://rcan.dev/.well-known/rcan-node.json`. Clients SHOULD pin this key and verify it out-of-band.
+
+    !!! note "The rcan.dev root key, for out-of-band pinning"
+        Since 16 October 2026 the rcan.dev root node publishes this Ed25519 key in its manifest, in `public_key` and `ed25519_public_key`, and self-signs the manifest with it:
+
+        - `public_key`: `ed25519:FnSNpTCyKH-1mJrBWgIhsmqPuyfRBKTOkeB71pT6bRA`
+        - `ed25519_public_key` (raw 32 bytes, base64url): `FnSNpTCyKH-1mJrBWgIhsmqPuyfRBKTOkeB71pT6bRA`
+        - `manifest_signature.kid`: `ed25519-d626701596f726df`
+
+        If the manifest ever shows a different key, treat it as a rotation and confirm it here or in the rcan-spec changelog before trusting it. A self-signature proves control of the key, not authority. The manifest's `pqc_public_key` is still null.
+
 2. **Each Authoritative node holds a delegation cert** signed by root's Ed25519 private key. The cert binds the node's public key to its namespace prefix.
 3. **Each robot record SHOULD carry the registering node's signature** over the record's canonical JSON, using the node's Ed25519 private key.
 4. **Clients MUST verify** the following chain before trusting a record:
