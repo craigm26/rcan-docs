@@ -172,7 +172,9 @@ POST /api/v1/verify
 | `community` | Self-reported registration, no proof required | Low — unverified |
 | `verified` | Ownership proof via Ed25519 challenge-response | Medium — cryptographically proven |
 | `manufacturer` | Verified + manufacturer delegation cert (§17) | High — manufacturer-attested |
-| `certified` | Third-party certification (out of scope for §21) | Highest |
+| `certified` | Set only by a registry's manual review, never by self-service. It records a registry decision, not a certification: no third party has certified the robot. The rcan.dev registry refuses it on its verify endpoint and has no review process open ([rcan.dev/api](https://rcan.dev/api/)). | Registry-assigned; not a certification |
+
+Conformance is not certification, and no verification tier is a certification.
 
 !!! info ""
     **Security note:** The challenge nonce MUST be at least 32 bytes of cryptographically random data. The challenge MUST expire within 5 minutes (`expires_at`). Registries MUST reject replayed challenges. A challenge is single-use.
