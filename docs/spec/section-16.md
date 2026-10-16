@@ -223,9 +223,9 @@ RCAN §16.6 satisfies the machine-detectability requirement for AI-generated con
 | Level | Requirement |
 |-------|-------------|
 | L1 Core | Not required |
-| L2 Secure | MUST embed token in COMMAND payload and audit record; MUST expose verify endpoint |
-| L3 Federated | L2 requirements + token preserved in forwarded COMMAND across delegation chain |
-| L4 Registry | L3 requirements + RRF registry MAY cache verify results for cross-robot auditability |
+| L2 Safety | MUST embed token in COMMAND payload and audit record; MUST expose verify endpoint |
+| L3 AI Accountability | L2 requirements + token preserved in forwarded COMMAND across delegation chain |
+| L4 Registry Integration | L3 requirements + RRF registry MAY cache verify results for cross-robot auditability |
 
 ---
 

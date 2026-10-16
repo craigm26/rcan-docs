@@ -364,8 +364,8 @@ Every registry **MUST** publish a descriptor at `/.well-known/rcan-registry.json
 
 **Step 1 — Implement the API**
 
-Implement the required endpoints from §7.2. Reference implementations are available:
-- [rcan-registry-reference](https://github.com/RobotRegistryFoundation/rcan-spec/tree/master/examples/registry) (TypeScript / Node.js)
+Implement the required endpoints from §7.2. A reference implementation is available:
+- The Robot Registry Foundation registry, [craigm26/RobotRegistryFoundation](https://github.com/craigm26/RobotRegistryFoundation) (TypeScript, Cloudflare Pages Functions under `functions/`)
 
 **Step 2 — Generate and Publish Your Key Pair**
 
